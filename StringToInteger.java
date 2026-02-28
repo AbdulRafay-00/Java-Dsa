@@ -11,7 +11,8 @@ public class StringToInteger {
         if(numStr.isEmpty()){
             System.out.println(0);
             
-        }
+        }else{
+
         if (numStr.charAt(i) == '+') {
             i++;
         } else if (numStr.charAt(i) == '-') {
@@ -41,7 +42,12 @@ public class StringToInteger {
             }
             
         }
+    }
+
+    if (num == Integer.MIN_VALUE || num == Integer.MAX_VALUE) {
+        
         num = num * sign;
         System.out.println(num);
+    }
     }
 }
