@@ -22,6 +22,7 @@ public class BinaryTraversals {
 
 
 // pre order traversal
+// <Root, Left, Right>
     public <T> void preOrder(Node<T> root) {
         if (root == null) {
             return;
@@ -30,4 +31,18 @@ public class BinaryTraversals {
         preOrder(root.left);
         preOrder(root.right);
     }
+
+// in order traversal
+// <Left, Root, Right>
+    public <T> void inOrder (Node<T> root){
+
+        if(root == null){
+            return;
+        }
+
+        inOrder(root.left);
+        System.out.println(root.data + " ");
+        inOrder(root.right);
+    }
+
 }

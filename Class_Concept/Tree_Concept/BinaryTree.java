@@ -30,6 +30,6 @@ public class BinaryTree {
         BinaryTraversals traversals = new BinaryTraversals();
         Node root = traversals.Createtree(nodes);
 
-        traversals.preOrder(root);
+        traversals.inOrder(root);
     }
 }
