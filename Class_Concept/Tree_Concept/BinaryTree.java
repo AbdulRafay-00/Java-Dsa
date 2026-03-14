@@ -29,7 +29,8 @@ public class BinaryTree {
         nodes.add(null);
         BinaryTraversals traversals = new BinaryTraversals();
         Node root = traversals.Createtree(nodes);
+        System.out.println("root node is " + root.data);
 
-        traversals.inOrder(root);
+        traversals.levelOrder(root);
     }
 }
