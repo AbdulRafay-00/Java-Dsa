@@ -1,11 +1,13 @@
 package Class_Concept.Tree_Concept;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.Queue;
 
 public class BinaryTraversals {
     
     int itx = -1;
-    int Levitx = 0;
+    int levitx = -1;
     public <T> Node<T> Createtree (ArrayList<T> Nodes) {
         
         itx++;
@@ -61,14 +63,32 @@ public class BinaryTraversals {
 
 // level order traversal
     public <T> void levelOrder(Node<T> root){
-        if (root == null) {
-            System.out.println("\n");
-            return;
-        }
-        System.out.println(root.data + " ");
-        levelOrder(root.left);
-        levelOrder(root.right);
+        Queue<Node<T>> queue = new LinkedList<>();
+        queue.add(root);
+        queue.add(null); // Use null as a level separator
 
+        while(!queue.isEmpty()){
+            Node<T> currnode = queue.poll();
+            if(currnode == null){
+                System.out.print("\n");
+                if (queue.isEmpty()) {
+                    return;
+                }
+                if (!queue.isEmpty()) {
+                    queue.add(null);
+                    
+                }
+            }
+            else{
+                System.out.print(currnode.data + " ");
+                if(currnode.left != null){
+                    queue.add(currnode.left);
+                }
+                if(currnode.right != null){
+                    queue.add(currnode.right);
+                }
+            }
+        }
     }
 
 }
