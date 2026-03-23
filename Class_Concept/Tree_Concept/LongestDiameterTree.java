@@ -57,6 +57,30 @@ public class LongestDiameterTree {
     //                                                   } 0(n2) why bec we are calculating firse the right then left and then comparing it 
 
 
+int maxDiameter = 0;
+
+int DiameterSubTreeOptimal(Node node) {
+    if (node == null) {
+        return 0;
+    }
+
+    int leftHeight  = DiameterSubTreeOptimal(node.left);
+    int rightHeight = DiameterSubTreeOptimal(node.right);
+
+    System.out.println("\nAt node: " + node.data);
+    System.out.println("left height is  " + leftHeight);
+    System.out.println("right height is " + rightHeight);
+
+    // Path passing through this node
+    int pathThroughNode = leftHeight + rightHeight;
+    System.out.println("path through this node = " + pathThroughNode);
+
+    // Update global max
+    maxDiameter = Math.max(maxDiameter, pathThroughNode);
+
+    // Return height
+    return Math.max(leftHeight, rightHeight) + 1;
+}
 
 // code of big o(n) time complexity
 
@@ -116,10 +140,12 @@ ArrayList<Integer> rightDominatedTree = new ArrayList<>(Arrays.asList(
     null       // extra right child of 1 (1.right processed)
 ));
 
-        Node node =  binaryTraversals.Createtree(rightDominatedTree);
+    LongestDiameterTree longestDiameterTree = new LongestDiameterTree();
 
-        int leftSubTree = new LongestDiameterTree().DiameterSubTree(node);
-        System.out.println(" max diameter of the tree is " + leftSubTree);
+        Node node =  binaryTraversals.Createtree(eqnodes);
+
+        int leftSubTree = longestDiameterTree.DiameterSubTreeOptimal(node);
+        System.out.println(" max diameter of the tree is " + longestDiameterTree.maxDiameter);
     }
 
 }
