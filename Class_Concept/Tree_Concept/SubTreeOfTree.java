@@ -3,7 +3,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 import Class_Concept.Tree_Concept.BinaryTraversals;
-public class LongestSideOfTree {
+public class SubTreeOfTree {
     
     int LongestSide (Node node){
         if (node == null) {
@@ -15,18 +15,36 @@ public class LongestSideOfTree {
         return Math.max(leftHeight, rightHeight) + 1;
     }
 
-
+// count Left Sub Tree
     int LeftSideSubTree(Node node){
         if (node == null) {
             return 0;
         }
-        int leftHeight = LeftSideSubTree(node.left);
+        int leftHeight = countSubTree(node.left);
         return leftHeight;
     }
-    int countLeft(){
-        
+
+// count right sub tree
+    int RightSideSubTree(Node node){
+        if (node == null) {
+            return 0;
+        }
+        int rightHeight = countSubTree(node.right);
+        return rightHeight;
+    }
+// Sub tree counter
+    int countSubTree(Node node){
+        if (node == null) {
+            return 0;
+        }
+        System.out.print(node.data +", " );
+        int SubTreeleft = countSubTree(node.left);
+        int SubTreeright = countSubTree(node.right);
+        return SubTreeleft + SubTreeright + 1;
+
     }
     
+
     public static void main (String [] args){
         BinaryTraversals traversals = new BinaryTraversals();
 
@@ -61,8 +79,11 @@ public class LongestSideOfTree {
 
         Node node =  traversals.Createtree(eqnodes);
 
-        int ans = new LongestSideOfTree().LongestSide(node);
-        System.out.println("Longest side of tree is " + ans);
+        int leftSubTree = new SubTreeOfTree().LeftSideSubTree(node);
+        System.out.println("Left side of tree is " + leftSubTree);
+
+        // int ans = new LongestSideOfTree().LongestSide(node);
+        // System.out.println("Longest side of tree is " + ans);
         
         
     }
