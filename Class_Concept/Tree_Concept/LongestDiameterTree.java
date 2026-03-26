@@ -137,7 +137,7 @@ ArrayList<Integer> rightDominatedTree = new ArrayList<>(Arrays.asList(
     null,     // 4.left = null
     5,        // 4.right = 5
     null, null, // 5.left=null, 5.right=null
-    null       // extra right child of 1 (1.right processed)
+    null 
 ));
 
     LongestDiameterTree longestDiameterTree = new LongestDiameterTree();
