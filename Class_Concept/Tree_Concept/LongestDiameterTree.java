@@ -135,7 +135,7 @@ ArrayList<Integer> rightDominatedTree = new ArrayList<>(Arrays.asList(
     null,     // 3.left = null
     4,        // 3.right = 4
     null,     // 4.left = null
-    5,        // 4.right = 5
+    5,        
     null, null, 
     null 
 ));
