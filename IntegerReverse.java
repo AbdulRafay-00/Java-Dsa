@@ -7,7 +7,7 @@ public class IntegerReverse {
         for(int i = s.length() -1; i >= 0; i--){
             rev += s.charAt(i);
         }
-
+//res
         int finalRev = Integer.parseInt(rev);
         System.out.println(finalRev);
       
