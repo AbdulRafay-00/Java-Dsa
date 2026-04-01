@@ -1,3 +1,4 @@
+package Class_Concept.AnonimusClassConcept;
 interface inti_Face_class {
     void sound();    
 }
