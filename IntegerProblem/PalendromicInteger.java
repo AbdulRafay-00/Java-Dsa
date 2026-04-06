@@ -13,7 +13,7 @@ public class PalendromicInteger {
             digit = x % 10;
             rev = rev * 10 + digit;
             x =  x / 10;
-
+//res
         }
         System.out.println(rev);
         if (rev == num) {
