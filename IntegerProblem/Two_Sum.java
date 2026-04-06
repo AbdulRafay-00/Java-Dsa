@@ -6,6 +6,7 @@ import java.util.List;
 public class Two_Sum {
 
     public static void main(String [] aurg){
+        List<List<Integer>> result = new ArrayList<>();
         ArrayList <Integer> arr = new ArrayList<>(List.of(2,3,6,8,9));
         HashMap<Integer, Integer> map = new HashMap<>();
         int target = 11;
