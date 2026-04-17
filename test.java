@@ -7,7 +7,7 @@
 // }
 
 
-//  var work in java
+
 
 import java.util.LinkedList;
 
