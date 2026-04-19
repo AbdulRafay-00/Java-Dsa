@@ -1,4 +1,4 @@
-package Sorting_Algo;
+yopackage Sorting_Algo;
 // import java.util.ArrayList;
 // import java.util.List;
 // public class Main{
@@ -78,7 +78,7 @@ public class mergsort {
     // merge sort
     public static ArrayList<Integer> mergSort(ArrayList<Integer> list) {
 
-        // ✅ base case
+        // base case
         if (list.size() <= 1) {
             return list;
         }
