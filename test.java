@@ -1,7 +1,7 @@
 // public class test {
 //     public static void main(String[] args) {
 //         System.out.println("Hello world");
-//         var a = 10;
+//         var a = 20;
 //         System.out.println(a);
 //     }
 // }
