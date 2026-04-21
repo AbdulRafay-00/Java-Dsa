@@ -12,6 +12,7 @@
 import java.util.LinkedList;
 
 class Test {
+    // link list test
     public static void main(String[] args) {
         LinkedList<Integer> list = new LinkedList<>();
 
