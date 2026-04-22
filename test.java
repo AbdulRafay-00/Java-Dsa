@@ -12,7 +12,7 @@
 import java.util.LinkedList;
 
 class Test {
-    // link list test
+    // link list test case
     public static void main(String[] args) {
         LinkedList<Integer> list = new LinkedList<>();
 
