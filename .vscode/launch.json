@@ -1,0 +1,42 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "Test",
+            "projectName": "java_work_fa32ee5c"
+        },
+        {
+            "type": "java",
+            "name": "PreBuildUse",
+            "request": "launch",
+            "mainClass": "Class_Concept.Queue_Questions.PariorityQueue.PreBuildUse",
+            "projectName": "java_work_fa32ee5c"
+        },
+        {
+            "type": "java",
+            "name": "sub_Array_recursion",
+            "request": "launch",
+            "mainClass": "Sub_Array.sub_Array_recursion",
+            "projectName": "java_work_fa32ee5c"
+        },
+        {
+            "type": "java",
+            "name": "testpq",
+            "request": "launch",
+            "mainClass": "Class_Concept.Queue_Questions.PariorityQueue.testpq",
+            "projectName": "java_work_fa32ee5c"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        }
+    ]
+}
