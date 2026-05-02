@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "hayKeyProblem",
+            "request": "launch",
+            "mainClass": "String.hayKeyProblem",
+            "projectName": "java_work_fa32ee5c"
+        },
+        {
+            "type": "java",
             "name": "Test",
             "request": "launch",
             "mainClass": "Test",
