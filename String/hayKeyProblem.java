@@ -1,3 +1,34 @@
+// package String;
+
+// public class hayKeyProblem {
+//     public static void main (String[] args) {
+//         String str = "mississippi";
+//         String key = "issip";
+//         int count = 0;
+//         int j = 0;
+//         int i = 0;
+//         while(i < str.length() && j < key.length()) {
+//             if (str.charAt(i) == key.charAt(j)) {
+//                 count = i;
+//                 j++;
+//             } else {
+
+//                 j = 0;
+//                 count = 0 ;
+//                 if (str.charAt(i) == key.charAt(j)) {
+//                 count = i;
+//                 j++;
+//             }
+//             }
+//             System.out.println(str.charAt(i) + " " + j);
+//             i++;
+//         }
+//         System.out.println("final start count: " + (count - key.length() + 1 ));
+//     }
+
+// }
+
+
 package String;
 
 public class hayKeyProblem {
