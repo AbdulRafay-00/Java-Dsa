@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "sunstringfromstringleethard",
+            "request": "launch",
+            "mainClass": "String.sunstringfromstringleethard",
+            "projectName": "java_work_fa32ee5c"
+        },
+        {
+            "type": "java",
             "name": "hayKeyProblem",
             "request": "launch",
             "mainClass": "String.hayKeyProblem",
