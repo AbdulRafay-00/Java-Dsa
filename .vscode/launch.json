@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PossiblePermutation",
+            "request": "launch",
+            "mainClass": "SpecialProblem.PossiblePermutation",
+            "projectName": "java_work_fa32ee5c"
+        },
+        {
+            "type": "java",
             "name": "sunstringfromstringleethard",
             "request": "launch",
             "mainClass": "String.sunstringfromstringleethard",
