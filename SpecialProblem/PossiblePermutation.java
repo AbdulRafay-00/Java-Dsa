@@ -53,9 +53,12 @@ public class PossiblePermutation {
     public static void main(String[] args) {
 
         Solution s = new Solution();
-
+// case1
         int[] nums = {1, 2, 3};
-
+// case2
+//        int[] nums = {1, 2, 3, 4};
+// case3
+        // int[] nums = {1};
         List<List<Integer>> result = s.permute(nums);
 
         System.out.println(result);
