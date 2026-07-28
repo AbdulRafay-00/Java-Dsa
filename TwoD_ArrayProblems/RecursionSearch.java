@@ -1,9 +1,9 @@
 package TwoD_ArrayProblems;
 
-public class RecursionSearch {
-    import java.util.*;
+import java.util.HashSet;
 
-class Solution {
+public class RecursionSearch {
+
 
     public boolean exist(char[][] board, String word) {
 
@@ -119,4 +119,4 @@ class Solution {
         return false;
     }
 }
-}
+
