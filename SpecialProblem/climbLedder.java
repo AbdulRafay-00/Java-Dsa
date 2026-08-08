@@ -26,6 +26,8 @@ public class climbLedder {
         climbLedder obj = new climbLedder();
 
         int answer = obj.climbStairs(5);
+        // int answer = obj.climbStairs(19);
+        // int answer = obj.climbStairs(4);
 
         System.out.println(answer);
     }
