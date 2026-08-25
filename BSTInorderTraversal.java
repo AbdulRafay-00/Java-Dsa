@@ -35,6 +35,7 @@ public class BSTInorderTraversal {
 
         root.left = new TreeNode(2);
         root.right = new TreeNode(6);
+        // root.right = new TreeNode(6);
 
         root.left.left = new TreeNode(1);
         root.left.right = new TreeNode(3);
