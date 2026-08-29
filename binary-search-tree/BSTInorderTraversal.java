@@ -23,7 +23,8 @@ public class BSTInorderTraversal {
 
         inorder(root.left);
 
-        arr.add(root.val);
+        // arr.add(root.val);
+        System.out.println(root.val);
 
         inorder(root.right);
     }

@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BSTImplementation",
+            "request": "launch",
+            "mainClass": "BSTImplementation",
+            "projectName": "java_work_fa32ee5c"
+        },
+        {
+            "type": "java",
             "name": "PossiblePermutation",
             "request": "launch",
             "mainClass": "SpecialProblem.PossiblePermutation",
