@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RemovindDuplicatesII",
+            "request": "launch",
+            "mainClass": "Array_con.RemovindDuplicatesII",
+            "projectName": "java_work_fa32ee5c"
+        },
+        {
+            "type": "java",
+            "name": "MostEventPossible",
+            "request": "launch",
+            "mainClass": "TwoD_ArrayProblems.MostEventPossible",
+            "projectName": "java_work_fa32ee5c"
+        },
+        {
+            "type": "java",
             "name": "BSTImplementation",
             "request": "launch",
             "mainClass": "BSTImplementation",
