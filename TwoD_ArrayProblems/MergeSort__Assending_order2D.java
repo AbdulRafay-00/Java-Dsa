@@ -5,7 +5,7 @@ import java.util.List;
 
 public class MergeSort__Assending_order2D {
 
-/** this code is for sorting 2D array in assending order using merge sort algorithm
+/** this code is for sorting 2D array in descending order using merge sort algorithm
     where keeping the inner array as it is and sorting the outer array based on the first element of each inner array */
     public static void main(String aurg []){
         // List list[][]= {[]};
@@ -60,7 +60,7 @@ public class MergeSort__Assending_order2D {
         int count = 0;
         int [][] ressult = new int[list1.length + list2.length][list1[0].length];
         while(i < list1.length && j < list2.length){
-            if(list1[i][0] < list2[j][0]){
+            if(list1[i][0] > list2[j][0]){
                 ressult[count] = list1[i];
                 count++;
                 i++;
