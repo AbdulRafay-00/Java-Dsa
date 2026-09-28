@@ -1,4 +1,4 @@
 package TwoD_ArrayProblems;
-public class UniquePath {
+public class UniquePath2D {
     
 }
