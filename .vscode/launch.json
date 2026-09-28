@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MergeSort_DescendingOrde",
+            "request": "launch",
+            "mainClass": "TwoD_ArrayProblems.MergeSort_DescendingOrde",
+            "projectName": "java_work_fa32ee5c"
+        },
+        {
+            "type": "java",
+            "name": "MergeSort__Assending_order2D",
+            "request": "launch",
+            "mainClass": "TwoD_ArrayProblems.MergeSort__Assending_order2D",
+            "projectName": "java_work_fa32ee5c"
+        },
+        {
+            "type": "java",
+            "name": "MergeSort_DescendingOrder",
+            "request": "launch",
+            "mainClass": "TwoD_ArrayProblems.MergeSort_DescendingOrder",
+            "projectName": "java_work_fa32ee5c"
+        },
+        {
+            "type": "java",
             "name": "MergeSort_2D",
             "request": "launch",
             "mainClass": "TwoD_ArrayProblems.MergeSort_2D",
