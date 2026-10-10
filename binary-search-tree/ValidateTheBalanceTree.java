@@ -1,8 +1,8 @@
 public class ValidateTheBalanceTree {
     
 
-
     public boolean isBalanced(TreeNode root) {
+        if(root == null) return true;
         return height(root) != -1;
     }
 
