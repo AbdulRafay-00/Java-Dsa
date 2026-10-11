@@ -1,6 +1,6 @@
 public class ValidateTheBalanceTree {
     
-
+// optimized in O(n)
     public boolean isBalanced(TreeNode root) {
         if(root == null) return true;
         return height(root) != -1;
