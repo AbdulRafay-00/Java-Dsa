@@ -3,8 +3,7 @@ package recursion;
 public class CountAndSay_Rle {
 
     public String countAndSay(int n) {
-        int curr = 1;
-        return Rle("1", curr, n);
+        return Rle("1", 1, n);
     }
 
     public String Rle(String str, int curr, int finalint) {
