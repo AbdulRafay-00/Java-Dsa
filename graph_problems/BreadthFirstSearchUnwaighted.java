@@ -13,6 +13,7 @@ public class BreadthFirstSearchUnwaighted {
 
         ImplementationOfUniDirectionalGraph graphObj = new ImplementationOfUniDirectionalGraph();
         @SuppressWarnings("unchecked")
+        // No adjacency array needed, a HashMap<node, neighbors> works too.
         ArrayList<Edge<Integer>> graph[] = new ArrayList[5];
         graphObj.createGraph(graph);
         createBST(graph);
