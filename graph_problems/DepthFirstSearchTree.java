@@ -36,7 +36,7 @@ public class DepthFirstSearchTree {
                     System.out.println("Visiting node: " + curr);
                     for(int i =0 ; i < graph[i].size(); i++){
                         eleStack.push(graph[i].get(i).dest);
-                        createDFS(graph, eleStack.peek());
+                        createDFS(graph, eleStack.pop());
                     }
                 }
 
