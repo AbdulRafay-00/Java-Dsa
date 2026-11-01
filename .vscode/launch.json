@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BreadthFirstSearchUnwaighted",
+            "request": "launch",
+            "mainClass": "graph_problems.BreadthFirstSearchUnwaighted",
+            "projectName": "java_work_fa32ee5c"
+        },
+        {
+            "type": "java",
             "name": "MergeSort_DescendingOrde",
             "request": "launch",
             "mainClass": "TwoD_ArrayProblems.MergeSort_DescendingOrde",
