@@ -7,20 +7,20 @@ public class DepthFirstSearchTree {
     HashSet<Integer> visited = new HashSet<Integer>();
     public static void main(String[] args){
         ArrayList <Edge<Integer>> graph[] = new ArrayList[];
-        ImplementationOfUniDirectionalGraph.createGraph(graph, 99);
-        for (int i = 0 ; i< graph.length; i++){
-            if(graph[i].get(0).source == stp) {
-                ind = i;
-                present = true;
-                eleStack.push(stp);
-                break;
-            }
-        }
+  
         
         if(graph == null || graph.length == 0){
             System.out.println("Graph is empty or starting point is null");
         }else{
-
+            for (int i = 0 ; i< graph.length; i++){
+                if(graph[i].get(0).source == stp) {
+                    ind = i;
+                    present = true;
+                    eleStack.push(stp);
+                    break;
+                }
+            }
+            ImplementationOfUniDirectionalGraph.createGraph(graph, 99);
         }
 
     }
