@@ -1,6 +1,6 @@
 import java.io.*;
 
-public class Main {
+public class Q2Calico {
     public static void main(String[] args) throws IOException {
         StreamTokenizer tok = new StreamTokenizer(new BufferedReader(new InputStreamReader(System.in)));
         if (tok.nextToken() == StreamTokenizer.TT_EOF) return;
