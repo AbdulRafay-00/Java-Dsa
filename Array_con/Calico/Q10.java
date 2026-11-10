@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-public class Main {
+public class Q10 {
     static int[] child0, child1, trieCount;
     static int totalNodes;
 
