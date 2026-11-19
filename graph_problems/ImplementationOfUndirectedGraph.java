@@ -2,7 +2,7 @@ package graph_problems;
 
 import java.util.ArrayList;
 
-public class ImplementationOfUndirectedGraph {
+public class ImplementationOfUndirectiedGraph {
 
     // Adds the edge in both directions
     public static void addEdge(ArrayList<Edge<Integer>> graph[], int u, int v) {
