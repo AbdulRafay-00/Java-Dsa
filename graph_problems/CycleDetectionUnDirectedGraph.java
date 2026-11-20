@@ -18,7 +18,6 @@ public class CycleDetectionUnDirectedGraph {
     }
 
     public static boolean cycleDetection(ArrayList<Edge<Integer>> graph[], int curr, int parent, boolean visited[]) {
-        // base case
         if (visited[curr]) {
             return true;
         }
